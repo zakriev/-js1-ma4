@@ -1,4 +1,4 @@
-//Question 1
+//Question1
 
 const form = document.querySelector("#contactForm");
 
