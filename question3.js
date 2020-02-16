@@ -13,8 +13,9 @@ fetch(callUrl)
         console.log(error);
     });
 
+
 function createGameDetails(json) {
-    const GameNamee = document.querySelector("h1");
+    const GameName = document.querySelector("h1");
     GameName.innerHTML = json.name;
 
     const imgUrl = document.querySelector(".image");
