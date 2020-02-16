@@ -3,6 +3,7 @@
 const Url = "https://api.rawg.io/api/games";
 
 fetch(Url)
+
     .then(function(response) {
         return response.json();
     })
